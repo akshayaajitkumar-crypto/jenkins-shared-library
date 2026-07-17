@@ -1,7 +1,9 @@
 def call() {
     echo "Starting Maven Build..."
 
-    sh 'mvn clean compile'
+    dir('app') {
+        sh 'mvn clean compile'
+    }
 
     echo "Build Completed Successfully."
 }
