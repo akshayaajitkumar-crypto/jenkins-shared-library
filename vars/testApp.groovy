@@ -4,3 +4,4 @@ def call() {
            sh 'mvn test'
     }
     echo "Tests Completed"
+}
