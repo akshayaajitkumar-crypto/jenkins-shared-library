@@ -1,4 +1,4 @@
-def  call(){
+def call() {
     echo "Starting Maven Build..."
 
     sh 'mvn clean compile'
